@@ -1,1 +1,1 @@
-# rsschool-cv
+https://oecorango.github.io/rsschool-cv/cv
