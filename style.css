@@ -1,0 +1,7 @@
+@font-face {
+    font-family: AmaticSC;
+     src: url("assets/fonts/AmaticSC-Bold.ttf");
+   }
+   * {
+    box-sizing: border-box;
+  }   
