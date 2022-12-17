@@ -25,6 +25,7 @@ body {
 
 .header {
 	background-color: rgb(204, 196, 181);
+	font-weight: bold;
 }
 
 .container {
@@ -112,3 +113,16 @@ body {
 html {
 	scroll-behavior: smooth; 
 } 
+
+.section-title-main {
+	font-family: comfort;
+}
+
+.section-title {
+	font-family: comfort;
+}
+
+.git {
+	width: 40px;
+	margin: 0px 100px;
+}
