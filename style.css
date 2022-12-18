@@ -21,7 +21,8 @@ body {
 	flex-direction: column;
 	justify-content: space-between;
 	background-color: rgb(255, 255, 255);
-}
+	color: rgb(116, 0, 43);
+	}
 
 .header {
 	background-color: rgb(204, 196, 181);
@@ -59,6 +60,16 @@ body {
   color: #be2300;
 }
 
+.contacts a {
+  color: rgb(79, 48, 194);
+  text-decoration: none;  
+  transition: color 1s;
+}
+
+.contacts a:hover {
+  color: #f82e2e;
+}
+
 .main-container {
 	display: flex;
 	flex-wrap: wrap;
@@ -88,13 +99,21 @@ body {
 	width: 50%;
 	padding: 10px;
 	padding-bottom: 35px;
-	border-bottom: 2px solid #000000;
+	border-bottom: 4px solid rgb(204, 196, 181);	
 }
 
 @media (max-width: 768px) {
 	.section {
 		width: 100%;
 	}
+}
+
+.contacts {
+	font-family: averia;
+	padding: 0 px;
+	line-height: 20px;
+	font-size: 18px;
+	text-decoration: none;
 }
 
 .footer {
